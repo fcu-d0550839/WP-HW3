@@ -6,21 +6,21 @@
 		<title> celsius2Fahrenheit </title>
 		<script type = "text/javascript">
 			var celsius;
-      var Fahrenheit;
+			var Fahrenheit;
 
-      celsius = window.prompt("enter celsius degree.");
+			celsius = window.prompt("enter celsius degree.");
 
-      <!--chang celsius to Fahrenheit. -->
-      function changeTemperature(celsius){
-          var answer;
-          answer = celsius*(9/5) + 32;
-          return answer;
-      }
+			<!--chang celsius to Fahrenheit. -->
+			function changeTemperature(celsius){
+			var answer;
+			answer = celsius*(9/5) + 32;
+			return answer;
+			}
 
 			Fahrenheit = changeTemperature(celsius);
 
 			document.writeln("<h1>攝氏溫度 = " + celsius +"</h1>")
-      document.writeln("<h1>華氏溫度 = " + Fahrenheit +"</h1>")
+			document.writeln("<h1>華氏溫度 = " + Fahrenheit +"</h1>")
 
 
 		</script>
